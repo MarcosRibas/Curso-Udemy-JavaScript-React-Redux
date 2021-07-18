@@ -11,7 +11,7 @@ const funcao2 = function () {}
 const array= [function (a, b) {return a + b}, funcao1, funcao2]
 console.log(array[0](1,4))
 
-// Armazenar em um atributo de objeto
+// Armazenar em atributos de objetos
 const objeto = {}
 objeto.falar = function () {return 'Olá mundo'}
 console.log(objeto.falar())
