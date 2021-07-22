@@ -38,7 +38,7 @@ function contaBanco(numConta, dono, saldo, status = false){
         }
         else{
             saldo -= valor
-            console.log(`Valor depositado com sucesso, seu novo saldo é de R$${saldo.toFixed(2)}`)
+            console.log(`Valor sacado com sucesso, seu novo saldo é de R$${saldo.toFixed(2)}`)
         }
     }
     this.pagarMensalidade = function(){
@@ -52,7 +52,7 @@ function contaBanco(numConta, dono, saldo, status = false){
 
 }
 
-const c1 = new contaBanco(111, 'Marcos', 150)
+const c1 = new contaBanco(111, 'Marcos Ribas', 150, true)
 c1.status()
 c1.abrirConta()
 c1.depositar(200)
