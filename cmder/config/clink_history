@@ -1,0 +1,10 @@
+|CTAG_1627598621_13475250_6972_0
+ls
+|d..
+npx create-react-app fundamentos-react
+|d fundamentos-react
+|pm start
+|pm start
+cd..
+cd fundamentos-react
+npm start
