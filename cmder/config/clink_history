@@ -11,10 +11,32 @@ cd fundamentos-react
 |s
 cd ..
 |s
-cd..
-ls
+|d..
+|s
 cd /Curso-Udemy-JavaScript-React-Redux
 cd Curso-Udemy-JavaScript-React-Redux
-cd fundamentos-react\
+|d fundamentos-react\
+| npm start
+|pm start
+|s
+cd..
+|s
+cd luiz
+|s
+cd documents\GitHub
+|s
+cd Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
+|pm start
+|eact-scripts start
+|pm start
 % npm start
+|pm start
+cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux
+|pm start
+cd fundamentos-react\
+|pm start
+react-scripts start
+|pm start
+ls
+npm i
 npm start
