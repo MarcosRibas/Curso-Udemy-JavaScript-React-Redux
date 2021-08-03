@@ -25,7 +25,7 @@ cd luiz
 |s
 cd documents\GitHub
 |s
-cd Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
+|d Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 |pm start
 |eact-scripts start
 |pm start
@@ -37,10 +37,14 @@ cd Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 |pm start
 react-scripts start
 |pm start
-ls
+|s
 npm i
 |pm start
 |d fundamentos-react\
 cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux
 cd fundamentos-react\
+|pm start
+cd Documents\GitHub
+ls
+cd Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 npm start
