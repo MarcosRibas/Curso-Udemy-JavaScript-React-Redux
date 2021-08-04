@@ -47,4 +47,6 @@ cd fundamentos-react\
 cd Documents\GitHub
 ls
 cd Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
+|pm start
+cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 npm start
