@@ -1,16 +1,11 @@
 import React from 'react'
-
-
+import produtos from '../../data/produtos'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => {
     return (
-    <div>
-        <strong>
-        {props.nome}
-        {props.sobrenome}
-        </strong>
-    </div>
+        <div>
+            {produtos[0].id}
+        </div>
     )
 }
-
