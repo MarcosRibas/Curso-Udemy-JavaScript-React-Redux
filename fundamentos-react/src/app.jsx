@@ -6,12 +6,26 @@ import Cards from './componets/layout/Card.jsx'
 import Familia from './componets/basicos/Familia'
 import FamiliaMembro from './componets/basicos/FamiliaMembro'
 import ListaAlunos from './componets/repeticao/ListaAlunos'
+import TabelaProdutos from './componets/repeticao/TabelaProdutos'
+import ParOuImpar from './componets/condicional/ParOuImpar'
+import UsuarioInfo from './componets/condicional/usuarioInfo'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => //função formatada de forma enxuta
     <div className="App">
         <h1>Fundamentos</h1>
         <div className="Exercicios">
+
+
+
+            <Cards titulo = "Renderização condicional" color="#36E817">
+                <ParOuImpar numero = {21}></ParOuImpar>
+                <UsuarioInfo usuario = {{nome: "Robson"}}/>
+            </Cards>
+            <Cards  titulo = "Tabela de Produtos" color = "#921FF2">
+                <TabelaProdutos/>
+            </Cards>
+
             <Cards titulo = "Lista de Alunos" color="#51BEF8">
                 <ListaAlunos></ListaAlunos>
             </Cards>
