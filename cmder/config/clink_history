@@ -9,7 +9,7 @@ npx create-react-app fundamentos-react
 cd fundamentos-react
 |pm start
 |s
-cd ..
+|d ..
 |s
 |d..
 |s
@@ -42,7 +42,7 @@ npm i
 |pm start
 |d fundamentos-react\
 cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux
-cd fundamentos-react\
+|d fundamentos-react\
 |pm start
 cd Documents\GitHub
 |s
@@ -53,6 +53,11 @@ cd Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 |s
 |d Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 |pm start
-ls
+|s
 cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
+|pm start
+|s
+cd ..
+ls
+cd fundamentos-react\
 npm start

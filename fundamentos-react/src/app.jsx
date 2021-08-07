@@ -15,17 +15,14 @@ export default () => //função formatada de forma enxuta
     <div className="App">
         <h1>Fundamentos</h1>
         <div className="Exercicios">
-
-
-
             <Cards titulo = "Renderização condicional" color="#36E817">
-                <ParOuImpar numero = {21}></ParOuImpar>
-                <UsuarioInfo usuario = {{nome: "Robson"}}/>
+            <UsuarioInfo usuario = {{nome: "Robson"}}/>
+                <ParOuImpar numero = {21}></ParOuImpar> 
+                
             </Cards>
             <Cards  titulo = "Tabela de Produtos" color = "#921FF2">
                 <TabelaProdutos/>
             </Cards>
-
             <Cards titulo = "Lista de Alunos" color="#51BEF8">
                 <ListaAlunos></ListaAlunos>
             </Cards>

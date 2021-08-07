@@ -6,8 +6,8 @@ export default (props) => {
     return(
         <div>
             { isPar ?
-                <span>Par</span> :
-                <span>Impar</span>
+                <span> Você digitou um número <strong>par</strong></span> :
+                <span>Você digitou um número <strong>impar</strong></span>
             }
         </div>
     )
