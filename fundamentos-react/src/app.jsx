@@ -9,12 +9,21 @@ import ListaAlunos from './componets/repeticao/ListaAlunos'
 import TabelaProdutos from './componets/repeticao/TabelaProdutos'
 import ParOuImpar from './componets/condicional/ParOuImpar'
 import UsuarioInfo from './componets/condicional/usuarioInfo'
+import DiretaPai from './componets/comunicacao/DiretaPai'
+import IndiretaPai from './componets/comunicacao/IndiretaPai'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => //função formatada de forma enxuta
     <div className="App">
         <h1>Fundamentos</h1>
         <div className="Exercicios">
+            <Cards titulo="Comunição Indireta" color = "#0B3B5C">
+                <IndiretaPai></IndiretaPai>
+
+            </Cards>
+            <Cards titulo="Comunicação Direta" color="#1F5C33">
+                <DiretaPai></DiretaPai>
+            </Cards>
             <Cards titulo = "Renderização condicional" color="#36E817">
             <UsuarioInfo usuario = {{nome: "Robson"}}/>
                 <ParOuImpar numero = {21}></ParOuImpar> 
