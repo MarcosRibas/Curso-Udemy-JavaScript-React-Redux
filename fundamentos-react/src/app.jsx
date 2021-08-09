@@ -11,12 +11,23 @@ import ParOuImpar from './componets/condicional/ParOuImpar'
 import UsuarioInfo from './componets/condicional/usuarioInfo'
 import DiretaPai from './componets/comunicacao/DiretaPai'
 import IndiretaPai from './componets/comunicacao/IndiretaPai'
+import Input from './componets/formulario/Input'
+import Contador from './componets/contador/Contador'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => //função formatada de forma enxuta
     <div className="App">
         <h1>Fundamentos</h1>
         <div className="Exercicios">
+            <Cards titulo="Contador" color="#000000">
+                <Contador numeroInicial={10}/>
+
+            </Cards>
+            <Cards titulo = 'Formulário' color="#FA7140">
+                <Input></Input>
+                
+
+            </Cards>
             <Cards titulo="Comunição Indireta" color = "#0B3B5C">
                 <IndiretaPai></IndiretaPai>
 

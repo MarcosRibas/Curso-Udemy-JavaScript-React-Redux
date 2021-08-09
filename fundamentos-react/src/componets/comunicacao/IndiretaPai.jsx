@@ -1,15 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import IndiretaFilho from './IndiretaFilho'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
-    let nome = '?'
-    let idade = 0
-    let nerd = false 
-    function fornecerInfo(nomeParam, idadeParam, nerdParam){
-        nome = nomeParam
-        idade = idadeParam
-        nerd = nerdParam
+    let [nome, setNome] = useState('?')
+    let [idade, setIdade] = useState(0)
+    let [nerd, setNerd] = useState(false) 
+    function fornecerInfo(nome, idade, nerd){
+        setNome(nome)
+        setIdade(idade)
+        setNerd(nerd)
     }
     return (
         <div>
