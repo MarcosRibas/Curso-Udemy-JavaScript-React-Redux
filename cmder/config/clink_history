@@ -74,7 +74,7 @@ nmp start
 |s
 |pm start
 ls
-cd Documents\GitHub\udemyclone\
+|d Documents\GitHub\udemyclone\
 |pm start
 |pm start
 npm i
@@ -82,4 +82,6 @@ npm i
 git rebase upstream/master
 |pm start
 cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
+|pm start
+cd Documents\GitHub\udemyclone\
 npm start
