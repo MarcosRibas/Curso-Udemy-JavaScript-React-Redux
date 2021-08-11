@@ -38,7 +38,7 @@ cd documents\GitHub
 react-scripts start
 |pm start
 |s
-npm i
+|pm i
 |pm start
 |d fundamentos-react\
 cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux
@@ -70,6 +70,16 @@ cd fundamentos-react\
 |d Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 nmp start
 |pm start
-cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
+|d Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
+|s
+|pm start
 ls
+cd Documents\GitHub\udemyclone\
+|pm start
+|pm start
+npm i
+|pm start
+git rebase upstream/master
+|pm start
+cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 npm start
