@@ -1,5 +1,7 @@
 import React from "react"
 import "./contador.css"
+import Display from "./Display"
+import Botoes from "./Botoes"
 
 export default class Contador extends React.Component{
     state = {
@@ -28,13 +30,11 @@ export default class Contador extends React.Component{
         
         return (
             <div className="contador">
-                <p>Valor inicial: {this.state.numero}</p>
-                <label htmlFor="passoInput">
-                    <input id="passoInput" type="number" 
-                    value={this.state.passo} onChange={this.setPasso}/>
-                </label>
-                <button onClick={this.incluir}>+</button>
-                <button onClick={this.diminuir}>-</button>
+                <Display numero={this.state.numero}></Display>
+                
+
+                <Botoes inc={this.incluir} dim={this.diminuir}></Botoes>
+
             </div>
         )
     }

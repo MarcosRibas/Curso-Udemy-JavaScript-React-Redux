@@ -21,7 +21,7 @@ cd Curso-Udemy-JavaScript-React-Redux
 |s
 cd..
 |s
-cd luiz
+|d luiz
 |s
 cd documents\GitHub
 |s
@@ -62,7 +62,7 @@ cd Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 |d fundamentos-react\
 |pm start
 |s
-cd ..
+|d ..
 |s
 cd fundamentos-react\
 |pm start
@@ -73,7 +73,7 @@ nmp start
 |d Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 |s
 |pm start
-ls
+|s
 |d Documents\GitHub\udemyclone\
 |pm start
 |pm start
@@ -81,7 +81,21 @@ npm i
 |pm start
 git rebase upstream/master
 |pm start
-cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
+|d Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 |pm start
 cd Documents\GitHub\udemyclone\
+|pm start
+|d ..
+|s
+|d luiz\Documents\GitHub\udemyclone\
+|pm start
+|d luiz\Documents\GitHub\udemyclone\
+|d ..
+cd luiz\Documents\GitHub\udemyclone\
+|pm start
+cd ..
+|d Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
+ls
+cd luiz
+cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 npm start
