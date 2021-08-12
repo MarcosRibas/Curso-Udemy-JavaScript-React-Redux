@@ -96,6 +96,19 @@ cd luiz\Documents\GitHub\udemyclone\
 cd ..
 |d Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 ls
+<<<<<<< Updated upstream
 cd luiz
 cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
+=======
+|pm start
+|d ..
+|d ..
+|d udemyclone\
+|pm start
+npm i
+|pm start
+|d ..
+cd ..
+cd udemyclone\
+>>>>>>> Stashed changes
 npm start
