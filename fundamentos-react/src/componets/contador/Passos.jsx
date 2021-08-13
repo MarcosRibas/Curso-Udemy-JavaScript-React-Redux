@@ -8,8 +8,8 @@ export default (props) => {
             <input 
                 id="passoInput" 
                 type="number" 
-                value={this.state.passo} 
-                onChange={this.setPasso}/>                    
+                value={props.passo} 
+                onChange={evento => props.setPasso(+evento.target.value)}/>                    
             </label>
         </div>
 

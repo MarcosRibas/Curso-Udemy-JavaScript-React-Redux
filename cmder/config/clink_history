@@ -93,9 +93,14 @@ cd Documents\GitHub\udemyclone\
 |d ..
 cd luiz\Documents\GitHub\udemyclone\
 |pm start
-cd ..
+|d ..
 |d Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 ls
+|d luiz
+|d Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
+|pm start
+cd ..
+|d Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 cd luiz
 cd Documents\GitHub\Curso-Udemy-JavaScript-React-Redux\fundamentos-react\
 npm start

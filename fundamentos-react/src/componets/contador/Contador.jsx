@@ -2,6 +2,7 @@ import React from "react"
 import "./contador.css"
 import Display from "./Display"
 import Botoes from "./Botoes"
+import Passos from "./Passos"
 
 export default class Contador extends React.Component{
     state = {
@@ -18,9 +19,9 @@ export default class Contador extends React.Component{
             numero: this.state.numero - this.state.passo
         })
     }
-    setPasso = (evento) =>{
+    setPasso = (novoPasso) =>{
         this.setState({
-            passo: +evento.target.value,
+            passo: novoPasso,
         })
  
     }
@@ -31,9 +32,8 @@ export default class Contador extends React.Component{
         return (
             <div className="contador">
                 <Display numero={this.state.numero}></Display>
-                
-
-                <Botoes inc={this.incluir} dim={this.diminuir}></Botoes>
+                <Passos passo={this.state.passo} setPasso = {this.setPasso}></Passos>               
+                <Botoes setInc={this.incluir} setDim={this.diminuir}></Botoes>
 
             </div>
         )

@@ -4,8 +4,7 @@ import React from 'react'
 export default (props) => {
     return (
         <div>
-            Valor inicial: {props.numero}
-
+            {props.numero}
         </div>
 
     )

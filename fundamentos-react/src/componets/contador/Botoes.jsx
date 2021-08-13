@@ -4,8 +4,8 @@ import React from 'react'
 export default (props) => {
     return (
         <div>
-            <button onClick={props.inc}>+</button>
-            <button onClick={props.dim}>-</button>
+            <button onClick={props.setInc}>+</button>
+            <button onClick={props.setDim}>-</button>
         </div>
 
     )
