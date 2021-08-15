@@ -1,0 +1,15 @@
+function gerarNumeros(quantidade){
+    let numeros = []
+    while(numeros.length <= (quantidade - 1)){
+        let aleatorio = parseInt(Math.random() * 59) + 1
+        if(numeros.indexOf(aleatorio) == false){
+            numeros.push(aleatorio)
+        }
+        
+    }
+    numeros.sort()
+    return numeros       
+}
+console.log(gerarNumeros(5))
+let teste = [ 1, 5, 8, 99]
+console.log(teste.indexOf(3))

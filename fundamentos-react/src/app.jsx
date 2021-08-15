@@ -13,12 +13,17 @@ import DiretaPai from './componets/comunicacao/DiretaPai'
 import IndiretaPai from './componets/comunicacao/IndiretaPai'
 import Input from './componets/formulario/Input'
 import Contador from './componets/contador/Contador'
+import Mega from './componets/mega/Mega'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => //função formatada de forma enxuta
     <div className="App">
         <h1>Fundamentos</h1>
         <div className="Exercicios">
+            <Cards titulo="MegaSena" color="#E06107">
+                <Mega></Mega>
+            </Cards>
+
             <Cards titulo="Contador" color="#000000">
                 <Contador numeroInicial={10}/>
 
