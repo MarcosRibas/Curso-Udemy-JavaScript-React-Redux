@@ -3,7 +3,7 @@ import React from 'react'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
-    const nomes = ['João', 'Jair', 'Pedro', 'Daniel', 'Renato', 'Silvio', 'Elton', 'Everton', 'Luiz', 'Moacir']
+    const nomes = ['João', 'Jair', 'Mario', 'Daniel', 'Renato', 'Silvio', 'Elton', 'Everton', 'Luiz', 'Moacir']
     const min = 50
     const max = 70
     const gerarIdade = () => parseInt((Math.random() * (max - min)) + max)
