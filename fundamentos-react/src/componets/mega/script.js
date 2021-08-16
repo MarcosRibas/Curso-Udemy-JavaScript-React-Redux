@@ -6,9 +6,7 @@ function gerarNumeros(quantidade){
             numeros.push(aleatorio)
         }        
     }
-    return numeros.sort(function(a, b){
-        return a - b
-    })
+    return numeros.sort((a, b) => a - b)
 }
 console.log(gerarNumeros(5))
 

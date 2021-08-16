@@ -1,22 +1,28 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-function gerarNumeros(quantidade){
-    let numeros = []
-    while(numeros.length < (quantidade)){
-        let aleatorio = parseInt(Math.random() * 59) + 1
-        if(!numeros.includes(aleatorio)){
-            numeros.push(aleatorio)
-        }        
-    }
-    return numeros.sort(function(a, b){
-        return a - b
-    })
-}
+
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) =>{
+    function gerarNumeros(quantidade){
+        let numeros = []
+        while(numeros.length < (quantidade)){
+            let aleatorio = parseInt(Math.random() * 59) + 1
+            if(!numeros.includes(aleatorio)){
+                numeros.push(aleatorio)
+            }        
+        }
+        return numeros.sort(function(a, b){
+            return a - b
+        })
+    }
+
+    const numerosIniciais = Array(props.quantidade || 6).fill(0)
+    const [num, setNum] = useState(numerosIniciais)
+
     return(
         <div>
-            Aqui vão aparecer os números    
+            <p>{num.join(' ')}</p>    
             <button onClick={gerarNumeros(5)}>enviar</button> 
         </div>        
     )
