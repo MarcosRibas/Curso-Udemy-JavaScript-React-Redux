@@ -68,7 +68,7 @@ export default () => //função formatada de forma enxuta
             <Cards titulo="Alunos" color="#E94C6F">
                 <ComParametro
                     situacao="Situação do aluno"
-                    aluno="Enzo"
+                    aluno="Mario"
                     nota={9.4}
                 />
                 <ComParametro
@@ -78,8 +78,6 @@ export default () => //função formatada de forma enxuta
                 />
             </Cards>
         </div>
-
-
     </div>
 
 
