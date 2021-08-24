@@ -21,7 +21,7 @@ export default () => //função formatada de forma enxuta
         <h1>Fundamentos</h1>
         <div className="Exercicios">
             <Cards titulo="MegaSena" color="#E06107">
-                <Mega></Mega>
+                <Mega qtde = {6}></Mega>
             </Cards>
 
             <Cards titulo="Contador" color="#000000">
