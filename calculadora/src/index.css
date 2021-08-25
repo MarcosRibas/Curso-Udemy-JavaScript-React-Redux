@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Thin.ttf');
+}
+
+* {
+  font-family: 'RobotoMono', monospace;
+}
+body {
+  display: flex;
+  height: 100vh; /*ocupar a largura inteira da tela*/
+  justify-content: center;
+  align-items: center; /* centralizar também de forma vertical*/
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, #00d2ff, #3a7bd5); /*https://uigradients.com/#Reef*/
+}
