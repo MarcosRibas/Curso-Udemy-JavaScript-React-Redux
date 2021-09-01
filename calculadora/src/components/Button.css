@@ -1,5 +1,5 @@
 :root {
-    --bg-button: #000000;
+    --bg-button: #4e4e4e;
     --border-button: solid 1px #888;
 }
 
@@ -10,4 +10,18 @@
     border-right: var(--border-button);
     border-bottom: var(--border-button);
     outline: none;
+}
+
+.button:active { /* quando clicar no botão*/
+    background-color: rgb(46, 46, 46);
+}
+
+.button.double { /* quando o botão ocupa duas posições */
+    grid-column: span 2;
+
+}
+
+.button.triple { /* quando o botão ocupa três posições*/
+    grid-column: span 3;
+
 }
