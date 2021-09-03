@@ -1,10 +1,10 @@
 .display {
-    grid-column: span 4; /*dizendo quantas linhas vou ocupar*/
+    grid-column: span 4; /* dizendo quantas linhas vou ocupar */
     background-color: rgba(0, 0, 0, 0.829);
 
     display: flex;
-    justify-content: flex-end; /*alinhando do lado direito*/
-    align-items: center; /*Centralizando verticalmente*/
+    justify-content: flex-end; /* alinhando do lado direito */
+    align-items: center; /* Centralizando verticalmente */
     padding: 20px;
     font-size: 2.1em;
 
