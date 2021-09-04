@@ -25,3 +25,13 @@
     grid-column: span 3;
 
 }
+
+.button.operation { /* quando o botão representar uma operação*/
+    background-color: #fA8231; 
+    color: black;
+}
+
+.button.button.operation:active { /*Quando for uma operação e estiver ativo*/
+    background-color: #fa8231cc;
+
+}
