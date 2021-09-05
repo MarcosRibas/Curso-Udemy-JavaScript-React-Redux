@@ -1,0 +1,72 @@
+div {
+    border: solid 2px dodgerblue;
+    font-size: 1.3em;
+    margin: 5px;
+}
+
+.big {
+    font-size: 2em;
+}
+
+.flexContainer {
+    margin: 30px;
+    display: flex; /*Se inicia definindo que o display é flex*/
+    flex-direction: column; /* tirando do formato padrão que seria em uma linha horizontal */    
+    flex-direction: column-reverse; /*Inverte a ordem padrão das colunas*/
+    flex-direction: row; /*é a linha padrão, horizontal*/
+    /*flex-direction: row-reverse;*/ /*inverte a linha, como se fosse justificasse a direita*/
+    width: 26%;
+    flex-wrap: wrap; /*serve para quebrar a linha evitando o overflow*/
+    /*flex-wrap: wrap-reverse; inverte as linhas*/
+}
+
+.flexContainer2 {
+    display: flex;
+    margin: 30px;
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: flex-start; /*justificando elementos*/
+    justify-content: flex-end; /*Justificando para o final*/
+    justify-content: center; /*justifica para o centro*/
+    justify-content: space-around; /*espalha os elementos no espaço, de forma justificada*/   
+
+}
+
+.flexContainer3 {
+    display: flex;
+    margin: 30px;
+    width: 20%;
+    flex-wrap: wrap;
+    justify-content: space-between; /*Espalha de lado a lado*/
+}
+
+.flexContainer4 {
+    display: flex;
+    margin: 30px;
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    /* Cross Axis*/
+    height: 300px;
+    align-items: center;
+     /*align-items: baseline; Alinha pela base da fonte em ambos os eixos
+
+    align-items: stretch; Valor padrão
+    align-items: flex-start; alinha por cima, pelo inicio
+    align-items: flex-end; alinha por baixo, pelo fim
+    align-items: center; alinha pelo centro, semelhante ao space around
+
+    */
+}
+
+.flexContainer5 {
+    display: flex;
+    margin: 30px;
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 300px;
+    align-content: center; /*content é utilizado para ainhar mmais d euma linha*/
+
+}
