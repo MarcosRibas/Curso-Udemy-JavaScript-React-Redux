@@ -1,0 +1,23 @@
+div {
+    border: 2px solid rebeccapurple;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.flexContainer {
+    display: flex;
+    height: 300px;
+    width: 600px;
+    justify-content: space-around;
+}
+
+/* Especificando um filho*/
+
+.flexContainer div:nth-child(3) { /* Apontando para o terceiro filho*/
+    background-color: darkgrey;
+    color: white;
+     /* order: 1; Todos os filhos tem ordem padrão de 0, a partir do ponto que se coloca 1, ele vai para o fim da fila*/
+     order: -1; /*por ter ordem menor que o padrão 0 o elemento fica na primeira posição*/
+    
+}
