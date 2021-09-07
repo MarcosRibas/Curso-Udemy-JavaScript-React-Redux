@@ -19,5 +19,15 @@ div {
     color: white;
      /* order: 1; Todos os filhos tem ordem padrão de 0, a partir do ponto que se coloca 1, ele vai para o fim da fila*/
      order: -1; /*por ter ordem menor que o padrão 0 o elemento fica na primeira posição*/
-    
+     align-self: center;    
+}
+
+.flexContainer div:nth-child(1){
+    flex-grow: 2;
+}
+
+.flexContainer div {
+    width: 130px;
+    flex-grow: 0;
+    flex-grow: 1;
 }
