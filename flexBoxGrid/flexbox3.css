@@ -1,0 +1,20 @@
+.flexContainer {
+    display: flex;
+    flex-direction: row;     
+}
+
+div {
+    border: solid 2px blueviolet;
+    flex-direction: column;
+}
+
+.flexContainer div {
+    flex-basis: 100px; /* é a propriedade oficial (tem propriedade sobre o width) para definir qual a largura do elemento na direção escolhida */ 
+      
+}
+
+.flexContainer div:nth-child(4) {
+    /* mãozinha:
+    grow shrink basis */
+    flex: 3 6 100px;
+}
