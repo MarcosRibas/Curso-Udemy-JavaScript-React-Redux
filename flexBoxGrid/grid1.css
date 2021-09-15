@@ -1,0 +1,21 @@
+* {
+    margin: 0%;
+}
+
+.main {
+    display: flex;
+    justify-content: end;
+
+    
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid 2px rgb(15, 65, 160);
+    width: 500px;
+    height: 30px;
+ 
+
+}
