@@ -1,21 +1,36 @@
-* {
-    margin: 0%;
-}
 
-.main {
-    display: flex;
-    justify-content: end;
-
-    
+html, body {
+    margin: 20px;
+    height: calc(100% - 40px);
+    background-color: lightgray;
 }
 div {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    border: solid 2px rgb(15, 65, 160);
-    width: 500px;
-    height: 30px;
- 
+    font-size: 1.6rem;
+    border: solid 5px dodgerblue;
+    background-color: white;
+}
 
+body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(4, 8.33% 8.33% 8.33%); /*  100/12 = 8.33 */
+    grid-template-columns: repeat(12, 8.33%);
+    grid-template-columns: repeat(11, 100px) 50px;
+    /* minmax(100px, 300px */
+    grid-template-columns: 200px 20% 1fr; /* 1° coluna com 200, 2° com 20% e a 3° com o que sobrou*/
+    grid-template-columns: 3fr 6fr 3fr; /*Quebrando em 12 partes 2° coluna fica com metade, 1° e 3° com o resto */
+    grid-template-rows: 20% 30% 30% 20%; /*Direcionando o tamanho das linhas*/
+    grid-template-rows: 100px auto; /*auto divide as linhas restantes em tamanhos iguais*/
+}
+
+#d8 {    
+    background-color: violet;
+    grid-column-start: 2;
+    grid-column-end: 4; /*Ocupar o espaço da coluna 2 até a linha 4*/
+    grid-column-end: span 2; /*Ocupa o espaço de mais uma coluna*/
+    grid-row-start: 3;
+    grid-row-end: span 2;
 }
