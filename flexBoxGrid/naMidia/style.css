@@ -1,0 +1,24 @@
+
+
+.logosMidia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.midia {
+    max-width: 990px;
+    margin: auto;
+}
+
+.logosMidia img {
+    width: 150px;
+    margin: 10px 25px;    
+}
+
+@media(max-width:426px){
+    .logosMidia img {
+        margin: 0px 11px;
+        width: 130px;
+    }
+}
